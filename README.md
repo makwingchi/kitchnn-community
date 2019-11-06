@@ -1,21 +1,27 @@
 # Kitchnn
 A full-stack web development project.
 
-### Features
+## Features
 - Authentication
-  - User login with username and password
+  - Users login with username and password
+  
 - Authorization
-  - User cannot create a new recipe without being logged in
-  - User cannot edit or delete recipes posted by other users
-  - User cannot edit or delete other users' comments
+  - Users cannot create a new recipe without being logged in;
+  - Users cannot edit or delete recipes posted by other users;
+  - Users cannot edit or delete other users' comments
+  
 - Basic functionalities of recipe posts and comments
-  - Create, view, and edit posts and comments;
+  - Create, view, edit, and delete posts and comments;
   - Upload recipe image
-- A welcome page with slide shows
+  
+- A welcome page with slide shows, with each slide lasts around 10 seconds
+
 - Flash messages responding to users' interaction with the application
+
 - Responsive web page components
 
-### Stack
+
+## Stack
 - `HTML/CSS`
 - `Bootstrap`
 - `Javascript (including jQuery)`

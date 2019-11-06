@@ -35,5 +35,6 @@ A full-stack web development project.
 - `Express`
 - `MongoDB`
 - `Mongoose`
+- `RESTful Routing`
 - `Passport.js`
 - `ejs`

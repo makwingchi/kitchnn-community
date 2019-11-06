@@ -1,0 +1,72 @@
+html {
+  position: relative;
+  min-height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+/* Thumbnail styles */
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+/* Google Map styles */
+#map {
+	height: 400px;
+	width: 100%;
+}
+
+/* Recipe show page delete button */
+.delete-form {
+	display: inline-block;
+}
+
+/* Flexbox grid fix */
+.flex-wrap {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.jumbotron {
+  background-image: url(https://cdn1.egglandsbest.com/assets/images/headers/_pageBannerDesktop1x/hero-recipelanding.jpg);
+  background-size: cover;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.container h1 {
+  color: #fff;
+  text-shadow: 2px 2px 4px black;
+}
+
+#branding {
+  color: #fff;
+  text-shadow: 2px 2px 4px black;
+}
